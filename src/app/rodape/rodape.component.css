@@ -1,0 +1,32 @@
+ul.social-network{
+    list-style: none; /* para não ter os pingos listando os ícones */
+    padding: 0; /* distancia do ícone e a borda*/
+
+}
+
+ul.social-network li{
+    display: inline; /* deixa o ícone um ao lado do outro */
+    margin: 0; /* margem dos elementos*/
+    padding: 5px; /* distancia do ícone e a borda*/
+    
+}
+
+.fa{
+    font-size: 35pt; /* tamanho dos ícones */
+    color: white; /* cor dos ícones sem passar o cursor */
+    padding: 10px; /* distancia do ícone e a borda */
+  }
+  .fa-facebook-square:hover{ /*ao passar o cursor em cima do ícone ele fica na cor estabelecida abaixo */
+    color: #3b5998; /* cor do ícone ao passar o cursor */
+  }
+
+  .fa-instagram:hover{ /*ao passar o cursor em cima do ícone ele fica na cor estabelecida abaixo */
+    background: linear-gradient(180deg, rgba(251,255,0,1) 0%,  rgba(255,0,221,1) 100%);  /* cor dos ícones */
+    background-clip: text;  /* o fundo do elemento se extendo abaixo da borda */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    /* muda a cor do ícone com o cursor em cima */ 
+  }
+
+  .fa-linkedin-square:hover{  /*ao passar o cursor em cima do ícone ele fica na cor estabelecida abaixo */
+    color: #0072b1;  /* cor do ícone ao passar o cursor */
+  }
